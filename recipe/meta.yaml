@@ -1,5 +1,5 @@
 {% set name = "gifsicle" %}
-{% set version = "1.92" %}
+{% set version = "1.93" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/kohler/gifsicle/archive/v{{ version }}.tar.gz
-  sha256: f8a944f47faa9323bcc72c6e2239e0608bf30693894aee61512aba107a4c6b55
+  sha256: 941c0b1c3ebc748949a0d14363f0fb3c9d2c06ee122b3548315b9233eb956d88
 
 build:
   number: 0
@@ -29,7 +29,7 @@ about:
   license: GPL-2.0-only
   license_family: GPL
   license_file: COPYING
-  summary: 'Create, manipulate, and optimize GIF images and animations'
+  summary: Create, manipulate, and optimize GIF images and animations
 
   description: |
     Gifsicle manipulates GIF image files. Depending on command line 
