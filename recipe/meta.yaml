@@ -1,5 +1,5 @@
 {% set name = "gifsicle" %}
-{% set version = "1.93" %}
+{% set version = "1.94" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/kohler/gifsicle/archive/v{{ version }}.tar.gz
-  sha256: 941c0b1c3ebc748949a0d14363f0fb3c9d2c06ee122b3548315b9233eb956d88
+  sha256: ed3ae1bcb3e69c172e82963b84c260cb0fab00a3ba3587ea2042af4bbefcce6a
 
 build:
   number: 0
