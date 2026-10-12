@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: gifsicle
-  version: "1.96"
+  version: "1.97"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://github.com/kohler/gifsicle/archive/v${{ version }}.tar.gz
-  sha256: 1104b338745f466bdb6b739b152c42a5dfe2fb50a4c21e3bcd78446766f007ea
+  sha256: c286bd7ce85f845e60f45e36c630d422126c140c8719d3d00ade802a40f90170
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
